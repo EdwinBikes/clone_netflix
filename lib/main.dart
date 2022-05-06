@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:netflix/pages/inicio.dart';
 
 void main() {
-  runApp(const Prueba());
+  runApp(const CloneNetflix());
 }
 
-class Prueba extends StatelessWidget {
-  const Prueba({Key? key}) : super(key: key);
+class CloneNetflix extends StatelessWidget {
+  const CloneNetflix({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
